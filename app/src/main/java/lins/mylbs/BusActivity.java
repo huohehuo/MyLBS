@@ -27,7 +27,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
+//公车线路
 public class BusActivity extends AppCompatActivity {
 
     private TextView title,start,end,start_time,end_time,road_long;
@@ -56,13 +56,14 @@ public class BusActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bus);
         bindViews();
-
+        //获取传过来的值
         Intent intent = getIntent();
         txt_city = intent.getStringExtra("city");
         txt_line = intent.getStringExtra("line");
 
         mListView.setVisibility(View.INVISIBLE);
         pb.setVisibility(View.VISIBLE);
+        //初始化数据
         getData(0);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
