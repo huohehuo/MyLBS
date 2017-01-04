@@ -60,7 +60,7 @@ public class BusActivity extends AppCompatActivity {
         Intent intent = getIntent();
         txt_city = intent.getStringExtra("city");
         txt_line = intent.getStringExtra("line");
-
+        String sss = "sdsdasd";
         mListView.setVisibility(View.INVISIBLE);
         pb.setVisibility(View.VISIBLE);
         //初始化数据
