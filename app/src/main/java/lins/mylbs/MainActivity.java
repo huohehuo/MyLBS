@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+
+//Git分支测试1
 public class MainActivity extends AppCompatActivity {
 
     private EditText ed1,ed2;
