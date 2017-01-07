@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 //这是分支sub2
-//网络  分支
+//网络  分支 cv
 public class MainActivity extends AppCompatActivity {
 
     private EditText ed1,ed2;
